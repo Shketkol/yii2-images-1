@@ -1,11 +1,11 @@
 <?php
 
-namespace rico\yii2images;
+namespace shketkol\yii2images;
 
 
-use rico\yii2images\models\PlaceHolder;
+use shketkol\yii2images\models\PlaceHolder;
 use yii;
-use rico\yii2images\models\Image;
+use shketkol\yii2images\models\Image;
 
 class Module extends \yii\base\Module
 {
@@ -15,7 +15,7 @@ class Module extends \yii\base\Module
 
     public $graphicsLibrary = 'GD';
 
-    public $controllerNamespace = 'rico\yii2images\controllers';
+    public $controllerNamespace = 'shketkol\yii2images\controllers';
 
     public $placeHolderPath;
 
